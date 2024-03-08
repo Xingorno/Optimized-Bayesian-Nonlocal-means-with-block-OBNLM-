@@ -24,9 +24,10 @@ with <img src="http://latex.codecogs.com/svg.latex? w(B_i,B_j)=\frac{1}{Z^j}e^{-
 
 # Results
 
-The original ultrasound image (with speckle):
-<p align="center"><img src="noisyImage.png" border="0" height = "400" width="400"></p>
+The original ultrasound image (with speckle) vs the despeckled ultrasound image:
+<p align="center">
+  <img src="noisyImage.png" border="0" height = "380" width="400"/>
+  <img src="despeckledImage.png" border="0" height="380" width="400"/>
+</p>
 
-The despeckled ultrasound image:
-<p align="center"><img src="despeckledImage.png" border="0" height="400" width="400"></p>
 
