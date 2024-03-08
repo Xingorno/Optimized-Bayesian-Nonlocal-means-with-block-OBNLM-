@@ -17,7 +17,7 @@ The blockwise Nonlocal Means algorithm is completed. The basic principle is show
 **Object Function**: <img src="http://latex.codecogs.com/svg.latex?NL(u)(B_j) = \sum_{i\in\Delta_j}w(B_i,B_j)u(Bi)" border="0"/> 
 with <img src="http://latex.codecogs.com/svg.latex? w(B_i,B_j)=\frac{1}{Z^j}e^{-\frac{dp(u(B_i),u(B_j))}{h^2}}" border="0"/>
 
-<img src="http://latex.codecogs.com/svg.latex? B" border="0"/>: the blockwise of image
+<p align="center"><img src="http://latex.codecogs.com/svg.latex? B" border="0"></p>: the blockwise of image
 
 <img src="http://latex.codecogs.com/svg.latex? dp(u(B_i),u(B_j))" border="0"/>:the pearson distance between blockwise
 
@@ -25,9 +25,8 @@ with <img src="http://latex.codecogs.com/svg.latex? w(B_i,B_j)=\frac{1}{Z^j}e^{-
 # Results
 
 The original ultrasound image (with speckle):
-
-![noisy image](https://github.com/Xingorno/Optimized-Bayesian-Nonlocal-means-with-block-OBNLM-/blob/master/noisyImage.png?raw=true)
+<p align="center"><img src="noisyImage.png" border="0" height = "400" width="400"></p>
 
 The despeckled ultrasound image:
+<p align="center"><img src="despeckledImage.png" border="0" height="400" width="400"></p>
 
-![despeckled image](https://github.com/Xingorno/Optimized-Bayesian-Nonlocal-means-with-block-OBNLM-/blob/master/despeckledImage.png?raw=true)
